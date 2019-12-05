@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f6e9447-5bb6-43e8-87bc-b93146631caa" name="Default Changelist" comment="" />
+    <list default="true" id="0f6e9447-5bb6-43e8-87bc-b93146631caa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge3/Challenge3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge2/Challenge2.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge2/Challenge2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[C[D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[C[D.pub" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TwV5FrrqGaoZj0UJe1LOIm2sAi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -40,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Challenge2.py">
+  <component name="RunManager" selected="Python tests.Unittests for Challenge3.Challenge3.test_challenge2">
     <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,17 +96,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for challenge1.Challenge1.Challenge1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Challenge3.Challenge3.test_challenge2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;challenge1.Challenge1.Challenge1&quot;" />
+      <option name="_new_target" value="&quot;Challenge3.Challenge3.test_challenge2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -127,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for Challenge3.Challenge3.test_challenge2" />
         <item itemvalue="Python tests.Unittests in Challenge2.py" />
         <item itemvalue="Python.abc" />
         <item itemvalue="Python tests.Unittests in Challenge1.py" />
         <item itemvalue="Python.test_searchforporsche" />
-        <item itemvalue="Python tests.Unittests for challenge1.Challenge1.Challenge1" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +160,16 @@
       <updated>1574370960252</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

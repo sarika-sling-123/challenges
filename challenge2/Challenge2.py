@@ -2,7 +2,6 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -22,7 +21,7 @@ class Challenge2(unittest.TestCase):
         searchText = "PORSCHE"
         element = None
 
-        ### SSearch exotics in search tab and hot Enter
+        ### Search exotics in search tab and hot Enter
         self.driver.find_element(By.ID, "input-search").click()
         self.driver.find_element(By.ID, "input-search").send_keys("exotics")
         self.driver.find_element(By.ID, "input-search").send_keys(Keys.ENTER)
@@ -34,7 +33,7 @@ class Challenge2(unittest.TestCase):
         except :
             print("Data table did not load")
 
-        #If table is found, search for PORSCHE in every row, 'Make' cloumn of the table
+        ### If table is found, search for PORSCHE in every row, 'Make' cloumn of the table
         if element!=None:
             if element.is_displayed():
                 table_tbody = self.driver.find_elements_by_xpath(".//table[@id='serverSideDataTable']/tbody")
